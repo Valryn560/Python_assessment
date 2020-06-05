@@ -224,12 +224,11 @@ def seven(input):
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def eight(input):
-    if input == 1:
-        return input
-    elif input < 1:
-      	return ("NA")
-    else:
-        for i in range
+    factoral = 1
+    if int(input) >=1:
+        for i in range(1, int(input)+1):
+            factoral = factoral*i
+    return factoral
 
 	# <QUESTION 9>
 
